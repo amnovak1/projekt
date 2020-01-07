@@ -1,0 +1,325 @@
+
+
+body, html {
+	margin: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background-color: grey;
+}
+
+
+header {
+	display: block;
+	width: 100%;
+	height: 10%;
+}
+
+.nav-container {
+    background-image: url(../image/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+
+
+ ul {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	background-color: #333;
+	overflow: hidden;
+	
+}
+li {
+	float: left;
+}
+
+li a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	
+}
+
+
+
+p { 
+	margin: 0;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+	padding: 0;
+	
+}
+
+
+.my-car {
+	width: 20%
+	position: center;
+}
+
+figure {
+	border: 1px solid black;
+	padding-bottom: 3em;
+	margin:0.1em 0.5em 1em;
+	width: 35%;
+	height: 50%;
+	float: left;
+}
+
+figcaption {
+	font-size: 90% 
+	font: bold;
+	font-family: Arial;
+}
+
+.my-car {
+	width:100%;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: arial;
+}
+
+p {
+	position: relative;
+	padding-bottom: 30px;
+}
+
+
+a:hover {
+  color:yellow;
+
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.link: active {
+	color: red;
+}
+
+.link:visited {
+	color: green;
+}
+
+
+
+button {
+	display: block;
+	top: 50%;
+	left: 50%;
+
+}
+
+button {
+	background: none;
+	color:white;
+	width: 150px;
+	height: 50px;
+	border-bottom: 1px solid black;
+	font-size: 15px;
+    float: relative;
+	transition: .3s;
+	overflow: hidden;
+}
+
+
+footer {
+	background-color: black;
+	padding-bottom: 0.1em;
+	clear:both;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+
+footer img{
+	width: 20px;
+}
+
+@media screen and (max-width:900px) {
+	figure {
+		width: 90%;
+		margin-bottom: 1em;
+	}
+
+
+
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0.1em 0.5em 0.5em;
+	}
+
+	.news time {
+		margin 0 0 0.1em;
+
+	}
+
+	#galerija figure {
+    padding:0.5em;
+	margin:0.1em 0.5em 1em;
+	float:left;
+	width: 10%;
+	height: 10%;
+	border:1px solid white;
+
+	}
+
+	#galerija figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+
+}
+
+hr {
+	border: 1.3px dotted white;
+	margin: 1em;
+	clear:both;
+}
+
+.news h3 {
+ margin:0.5em 0.7em;
+ font-size: 1.5em;
+ color:bold black;
+ 
+}
+
+.news img {
+	width: 15%;
+	height: 50%;
+	float: left;
+	padding:0.5em;
+	margin: 0.1em 0.5em 0.5em;
+}
+
+.news time {
+	font-size: 90%;
+	font-style: bold;
+}
+
+.news a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+	background: none;
+	overflow:auto;
+	text-align: center;
+}
+
+.gallery {
+	margin: 5px;
+	border: 1px solid white;
+	float: left;
+	width: 290px;
+
+}
+
+.gallery img {
+	width: 100%;
+	height: 50%;
+}
+
+.description {
+	padding: 15px;
+	text-align: left;
+
+}
+
+#contact {
+	margin: 1em;
+}
+
+label {
+	display: block;
+}
+
+input [type=text], input[type = email], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+font-family: sans-serif;
+font-size: 95%;
+}
+
+input [type = submit] {
+	display: block;
+	background-color: yellow;
+	color: black;
+	padding:12px 20px;
+	border:none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 25%;
+	
+	;
+
+}
+
+.gale {
+	display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+.gallery_item {
+	box-sizing: border-box;
+	padding: 1em;
+	margin:1em;
+	box-shadow: 1px 2px 40px 2px white;
+    flex: 25%;
+    max-width: 30%;
+    max-height: 50%;
+    text-align: center;
+
+
+    
+}
+
+.gallery_image {
+	height: 180px;
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: left;
+
+}
+
+.gale figcaption {
+   margin-top: 1em;
+   font-size: 1.2em;
+
+}
+
+video {
+	float: left;
+	margin-right: 10px;
+	}
+
+.box {
+
+margin-left:10px;
+padding: 10px 0;
+}
